@@ -13,6 +13,7 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 # CONFIGURATIONS HERE
+# Once you have saved your model in your google cloud, and make it public, you can then paste the link here
 export_file_url = 'https://storage.googleapis.com/tf2-workshop-fundamental-rig-253009/model2.h5'
 export_file_name = 'model2.h5'
 classes = ['mee_goreng', 'chicken_rice', 'roti_prata']
